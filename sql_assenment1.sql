@@ -9,7 +9,6 @@ CREATE TABLE productlines (
     image MEDIUMBLOB
 );
 
-
 CREATE TABLE products (
     productCode VARCHAR(15) PRIMARY KEY,
     productName VARCHAR(70) NOT NULL,
