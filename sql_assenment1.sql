@@ -22,7 +22,6 @@ CREATE TABLE products (
     FOREIGN KEY (productLine) REFERENCES productlines(productLine)
 );
 
-
 CREATE TABLE offices (
     officeCode VARCHAR(10) PRIMARY KEY,
     city VARCHAR(50) NOT NULL,
