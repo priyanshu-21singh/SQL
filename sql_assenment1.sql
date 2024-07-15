@@ -78,7 +78,6 @@ CREATE TABLE orders (
     FOREIGN KEY (customerNumber) REFERENCES customers(customerNumber)
 );
 
-
 CREATE TABLE orderdetails (
     orderNumber INT,
     productCode VARCHAR(15),
